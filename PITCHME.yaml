@@ -1,0 +1,12 @@
+theme: night
+background : assets/binary-strings-black.jpg
+background-opacity : 15
+highlight : ir-black
+transition : convex
+logo : assets/logo.png
+remote-control: true
+remote-control-prevkey: 38
+remote-control-nextkey: 40
+theme-override : assets/styles.css
+published: false
+footnote : "WebAssembly: The New Endgame? | davidpine.net | @davidpine7"

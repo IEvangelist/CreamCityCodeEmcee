@@ -1,0 +1,276 @@
+.title {
+    font-size: 2.7em;
+}
+
+.wasm {
+    color: #654ff0;
+    font-weight: 900 !important;
+}
+
+.conf {
+    color: #e5cb33;
+}
+
+.soft-shadow {
+    text-shadow: 0 0 75px black;
+}
+
+.blue-glow {
+    text-shadow: 0 0 25px #96cbfe;
+}
+
+.shadow {
+    text-shadow: 0 0 15px black;
+}
+
+.reveal blockquote {
+    border-radius: 17px;
+    padding: 17px;
+    background: rgba(255,255,255,0.17);
+    width: 85%;
+}
+
+.reveal blockquote p {
+    font-style: normal;
+}
+
+.reveal blockquote p i.fa-quote-left {
+    float: left;
+    margin-left: -37px;
+    font-size: 77px;
+}
+
+p > span.code-presenting-annotation.fragment.current-only.visible.current-fragment {
+    text-transform: uppercase !important;
+    font-size: 80% !important;
+}
+
+div.slide-background.present:not([style*='binary-strings-black.jpg']) {
+    opacity: 1 !important;
+}
+
+.reveal pre {
+    width: 100%;
+    margin: 0;
+}
+
+.reveal pre code {
+    font-size: 1.2em;
+    line-height: 1.2;
+    max-height: 50vh !important;
+    opacity: 0.90;
+    border-radius: 10px;
+    overflow: hidden !important;
+  }
+  
+  @media (device-width: 100vw) and (device-height: 100vh) {
+    .reveal pre code {
+      max-height: 45vh !important;
+    }
+  }
+  
+  .reveal .slides section .code-presenting-annotation {
+    color: white;
+    background: black;
+    padding: 1px 15px;
+    border-radius: 15px;
+    opacity: 0.75 !important;
+    font-size: 50% !important;
+  }
+  
+  .reveal p span.slide-title {
+    color: white;
+    background: black;
+    padding: 4px 15px;
+    opacity: 0.75 !important;
+    border-radius: 15px;
+    display: none;
+  }
+  .reveal div.left {
+      float: left;
+      z-index: -10;
+      width: 45%;
+  }
+  
+  .reveal div.right {
+      float: right;
+      z-index: -10;
+      width: 55%;
+  }
+  
+  .reveal a.pro-link {
+      color: white;
+      font-size: 0.5em;
+  }
+  
+  #title-footer {
+    color: white;
+    background: black;
+    opacity: 0.65 !important;
+  }
+  
+  #title-footer p.footer-hard {
+      color: #b6b6b6;
+  }
+  
+  #title-footer p.footer-fade {
+    color: #b6b6b6;
+  }
+  
+  #gp-logo img {
+    max-height: 2em;
+    max-width: none;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .gp-tip { font-size : 1.5em; }
+  
+  .gp-contact { font-size : 1.4em; }
+  
+  .gp-download { margin-left: 10px; }
+
+  .flash {
+    animation-name: flash;
+    animation-duration: 0.77s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+ }
+ 
+ @keyframes flash {
+    from { opacity: 1; }
+    to { opacity: 0; }
+ }
+
+  .nodding i {
+    animation: nod 0.82s cubic-bezier(.36,.07,.19,.97) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  @keyframes nod {
+    10%, 90% {
+      transform: translate3d(0, -1px, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(0, 2px, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(0, -4px, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(0, 4px, 0);
+    }
+  }
+
+  .shaking i {
+    animation: shake 1.77s cubic-bezier(.36,.07,.19,.97) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  .waving i {
+    animation: wave 450ms infinite;
+    transform-origin: bottom;
+  }
+  
+  @-webkit-keyframes wave {
+    0% {
+      -webkit-transform:rotate(5deg);
+    }
+    50% {
+      -webkit-transform:rotate(-5deg);
+    }
+    100% {
+      -webkit-transform:rotate(5deg);
+    }
+  }
+  
+  @-moz-keyframes wave {
+    0% {
+      -moz-transform:rotate(5deg);
+    }
+    50% {
+      -moz-transform:rotate(-5deg);
+    }
+    100% {
+      -moz-transform:rotate(5deg);
+    }
+  }
+  
+  @-ms-keyframes wave {
+    0% {
+      -ms-transform:rotate(5deg);
+    }
+    50% {
+      -ms-transform:rotate(-5deg);
+    }
+    100% {
+      -ms-transform:rotate(5deg);
+    }
+  }
+  
+  @keyframes wave {
+    0% {
+      transform:rotate(5deg);
+    }
+    50% {
+      transform:rotate(-5deg);
+    }
+    100% {
+      transform:rotate(5deg);
+    }
+  }
+
+.fast {
+  animation-duration: 1.07s;
+}
+
+.ellipsis {
+  font-size: 30px;
+}
+
+.ellipsis:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.1em;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.1em;
+  }
+}
