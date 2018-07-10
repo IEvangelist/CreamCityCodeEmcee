@@ -2,12 +2,16 @@
     font-size: 2.7em;
 }
 
+.js {
+    color: #f7df1e;
+}
+
 .wasm {
     color: #654ff0;
     font-weight: 900 !important;
 }
 
-.conf {
+.that {
     color: #e5cb33;
 }
 
@@ -36,8 +40,14 @@
 
 .reveal blockquote p i.fa-quote-left {
     float: left;
-    margin-left: -37px;
+    margin-left: -52px;
     font-size: 77px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 'chrome firefox' 'webkit edge'
 }
 
 p > span.code-presenting-annotation.fragment.current-only.visible.current-fragment {
