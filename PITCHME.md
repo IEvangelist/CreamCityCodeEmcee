@@ -229,7 +229,9 @@ const x = () => fetch("http://api.icndb.com/jokes/random?limitTo=[nerdy]")
 
 ## Emscripten
 
-> Emscripten is a toolchain for compiling to WebAssembly, built using LLVM, that lets you run C and C++ on the web at near-native speed without plugins.
+> Emscripten is a toolchain for compiling to @css[wasm](WebAssembly), built using <strong>LLVM</strong>, that lets you run @css[c shadow](C) and @css[c shadow](C++) on the web at near-native speed without plugins.
+
+---
 
 @css[demo](Demo @fa[check-square])
 
@@ -269,12 +271,6 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 ---
 
-## As of @color[grey](July 27<sup>th</sup>)
-#### https://github.com/aspnet/Blazor
-<img class='image-glow' src="assets/blazor-github.png" />
-
----
-
 # @css[wasm](How?!)
 
 ---
@@ -296,6 +292,12 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 - @size[2.2em](@color[grey](+) @color[lime](Razor))
 - @size[2.2em](@color[grey](=) @css[bz](Blazor!))
 @ulend
+
+---
+
+## As of @color[grey](July 27<sup>th</sup>)
+#### https://github.com/aspnet/Blazor
+<img class='image-glow' src="assets/blazor-github.png" />
 
 ---?image=assets/cuzCSharp.png&size=contain
 
@@ -334,4 +336,4 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 ## Thank you
 <img src="assets/me.jpg" height="300" />
 <br/>
-[@davidpine7 @fa[twitter]](https://twitter.com/davidpine7) | [davidpine.net @fa[globe]](http://davidpine.net/)
+[@davidpine7 @css[twitter](@fa[twitter])](https://twitter.com/davidpine7) | [davidpine.net @color[red](@fa[globe])](http://davidpine.net/)
