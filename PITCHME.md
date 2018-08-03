@@ -1,32 +1,21 @@
 ---
+
 @size[2.7em](@css[wasm](WebAssembly))
 ### The New Endgame?
 <img src="assets/me.jpg" height="250" />
 <br />
-[@davidpine7 @fa[twitter]](https://twitter.com/davidpine7) | [davidpine.net @fa[globe]](http://davidpine.net/)
+[@davidpine7 @css[twitter](@fa[twitter])](https://twitter.com/davidpine7) | [davidpine.net @color[red](@fa[globe])](http://davidpine.net/)
+
+---?image=assets/that-conference-branding.png&size=contain
+---?image=assets/that-conference-sponsors.png&size=contain
+---
+
+# I @color[red](@fa[heart]) The
+### @css[twitter](#DeveloperCommunity @fa[twitter])
 
 ---
 
-# Thank You
-### Sponsors & @css[that](THAT Conference)
-### @color[red](@fa[heart]) #DeveloperCommunity @color[#0084b4](@fa[twitter])
-
----
-
-### @color[fuchsia](Unpublished Podcast Bits)
-<img class="headshot" src="assets/scott.png" height="300" />
-@css[flash](@color[whitesmoke](&nbsp; @fa[ellipsis-h] &nbsp; @fa[microphone] &nbsp; @fa[ellipsis-h] &nbsp;))
-<img class="headshot" src="assets/steve.png" height="300" />
-##### @css[scott](Scott Hanselman) @css[steve](Steve Sanderson)
-
----
-
-### An Interview With Steve
-
-
----
-
-# Wat?!
+# @css[wasm](Wat?!)
 
 ---
 
@@ -37,30 +26,46 @@
 ---?image=assets/wtf.webp&size=auto 90%
 ---
 
-# Runtime
-
-<img class="headshot" src="assets/mono-gorilla.svg" style="min-height: 300px; min-width: 300px; height: 250px; width: 250px;" />
+# @color[cyan](`.TryParse`) @css[that](THAT)
 
 ---
 
-# Decompose @css[that](THAT)
+> @fa[quote-left] @css[wasm](WebAssembly) is a @css[emphasize](binary instruction format) ...
+>
+> @fa[hand-o-right] <cite>https://webassembly.org/</cite>
 
+---?image=assets/ast.png&size=contain
 ---
-> Binary Instruction Format
----
+
+> @fa[quote-left] @css[wasm](WebAssembly) ... format for a @css[emphasize](stack-based virtual machine).
+>
+> @fa[hand-o-right] <cite>https://webassembly.org/</cite>
+
+---?image=assets/stack-based.gif&size=auto 90%
+
 @transition[none]
-> Stack-Based Virtual Machine
----
+@snap[south]
+
+<h2>@css[red bold shadow](...not) @css[that](THAT) stack!</h2>
+
+@snapend
+
+---?image=assets/push-pop.webp&size=auto 90%
+
 @transition[none]
-> Stack-Based implies Last In First Out (LIFO) Semantics. Values are pushed onto the stack and popped off of the stack.
----
-@transition[none]
-> A virtual machine (VM) is a high-level abstraction on top of the native operating system, that emulates a physical machine
+@snap[north-west]
+@size[3em](@css[red bold shadow](Push @fa[hand-o-down]))
+@snapend
+
+@snap[north-east]
+@size[3em](@css[red bold shadow](Pop @fa[arrow-up]))
+@snapend
+
 ---
 
-### Today, _binary execution format_ for the @color[magenta](web)
+### Today, @color[grey](binary execution<br/>format) for the @color[magenta](WEB)
 <br/>
-### There _future_ is for @color[orange](mobile) and @color[blue](IoT)!
+### It's @color[grey](future) is looking at <br/>@color[orange](MOBILE) and @color[skyblue](IoT)!
 
 ---
 
@@ -72,10 +77,6 @@
 <img class="pop-img" src="assets/go-logo.png" height="140" />
 > <br/> @fa[hand-o-right] <cite>https://webassembly.org/</cite>
 
----?image=assets/target.webp&size=auto 90%
-
-# @css[shadow](Compilation) @css[target](Target @fa[dot-circle-o])
-
 ---
 
 # Example
@@ -85,64 +86,20 @@
  - @size[2.2em](@css[wasm](`*.wasm`) @color[darkgreen](@fa[check-circle]))
 @ulend
 
+---?image=assets/fk.png&size=contain
+
+@transition[none]
+@snap[south]
+
+[@css[demo](Demo @fa[external-link-square])](https://www.funkykarts.rocks/demo.html)
+
+@snapend
 ---?image=assets/magic.webp&size=auto 90%
 ---
 
-## Angry Bots
-
-https://files.unity3d.com/jonas/AngryBots/
-
----
-
-## Tanks
-
-https://webassembly.org/demo/Tanks/
-
----
-
-## Funky Karts
-
-https://www.funkykarts.rocks/demo.html
-
----
-
-https://caniuse.com/#search=webassembly
-
-https://blazor.net/
-
-https://learn-blazor.com/
-
-
----
-
-# Open and Debuggable
-
----
-
-# Safe
-
----
-
-Same security sandbox as JavaScript's VM today
-
----
-
-
-# Fast and Efficient
-
----
-
-# Open web platform
-
----
-
-W3C
-
-![W3C](assets/w3c.png)
-
----
-
-Not versioned!
+## [<img src="https://raw.githubusercontent.com/IEvangelist/WebAssemblyTheNewEndgame/master/assets/chrome.svg?sanitize=true" height="50" width="50" class="clear-bg" /> has it... but,](https://www.chromestatus.com/feature/5453022515691520)
+<br/>
+## [@color[#39b54a]("can I use") it?](https://caniuse.com/#search=webassembly)
 
 ---
 
@@ -165,24 +122,80 @@ Not versioned!
 
 ---
 
+## World Wide Web @color[lightblue](Consortium)
+
+![W3C](assets/w3c.png)
+
+---
+
+## Text Format (@css[wasm](`.wat`))
+#### @color[orange](Human Readable)
+
+```
+(module
+  (func $i (import "imports" "imported_func") (param i32))
+  (func (export "exported_func")
+    i32.const 42
+    call $i
+  )
+)
+```
+
+---
+
 # What it<br/>@color[red](is not!)
 
 ---
 
-> @fa[quote-left] @css[wasm](WebAssembly) is @color[red](not) a @css[js](JavaScript) replacement!
+> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) `x86` or some other specific machine code instruction set.
+
+---?image=assets/cpu-pic.png&size=contain
+
+@transition[none]
+@snap[north]
+
+<h4>@color[black](Small Instruction Set, @css[red bold](NOT) directly on CPU)</h4>
+
+@snapend
+
+Note:
+Web Assembly actually is a specification for a byte code format. It's a format for machine instructions that's quite a low-level format, hence the name web assembly. It's not regular assembly, it's not x86 machine code or any of the specific instruction set that runs directly on the CPU but rather is a small instruction set. Similar to the java virtual machine or the microsoft intermediate language for .NET. It's a high-level low-level language if that makes sense?
 
 ---
 
-> @fa[quote-left] @css[wasm](WebAssembly) is @color[red](not) a programming language!
+> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) a third-party plugin. Plugins expose severe security risks!
+
+---?image=assets/sandbox.webp&size=auto 90%
+
+### @css[shadow](Same @color[magenta]("security sandbox")<br/>as @css[js](JavaScript))
 
 ---
 
-> @fa[quote-left] @css[wasm](WebAssembly) is @color[red](not) the ideal tool @fa[wrench] for every web project!
+> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) versioned @fa[code]. Instead it is versionless, feature-tested, and backwards-compatible.
+
+---
+
+> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) a @css[js](JavaScript) replacement!
+
+---?image=assets/wasm-js.png&size=contain
+---
+
+> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) a programming language!
+
+---?image=assets/target.webp&size=auto 90%
+
+# @css[shadow](Compilation) @css[target](Target @fa[dot-circle-o])
+
+---
+
+> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) the ideal tool @fa[wrench] for every web project!
 
 ---
 
 # @css[js](JavaScript)
 ### @color[magenta](HTTP GET Request)
+
+---
 
 ```javascript
 fetch("http://api.icndb.com/jokes/random?limitTo=[nerdy]")
@@ -191,6 +204,11 @@ fetch("http://api.icndb.com/jokes/random?limitTo=[nerdy]")
 
 // Chuck Norris is the ultimate mutex, all threads fear him.
 ```
+
+Note:
+const x = () => fetch("http://api.icndb.com/jokes/random?limitTo=[nerdy]")
+    .then(r => r.json())
+    .then(json => console.log(json.value.joke));
 
 ---
 
@@ -209,72 +227,65 @@ fetch("http://api.icndb.com/jokes/random?limitTo=[nerdy]")
 
 ---
 
+## Emscripten
 
----?image=assets/logo-winner.png&size=contain
+> Emscripten is a toolchain for compiling to WebAssembly, built using LLVM, that lets you run C and C++ on the web at near-native speed without plugins.
 
+@css[demo](Demo @fa[check-square])
 
----
-
-
-
----
-
-# Why
+Note:
+IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .html / .js and .wasm!
 
 ---
 
-## Use Cases (1 of 4)
-
-@ul
-- Better execution for languages and toolkits that are currently cross-compiled to the Web (C/C++, GWT, ...)
-- Image / video editing
-- __Games:__
-  - Casual games that need to start quickly
-  - AAA games that have heavy assets
-  - Game portals (mixed-party/origin content)
-@ulend
-
----
-@transition[none]
-## Use Cases (2 of 4)
-
-@ul
-- Interactive educational software, and news articles
-- Platform simulation / emulation (ARC, DOSBox, QEMU, MAME, ...)
-- Language interpreters and virtual machines
-- POSIX user-space environment, allowing porting of existing POSIX applications
-- Developer tooling (editors, compilers, debuggers, ...)
-@ulend
-
----
-@transition[none]
-## Use Cases (3 of 4)
-
-@ul
-- Peer-to-peer applications (games, collaborative editing, decentralized and centralized)
-- Music applications (streaming, caching)
-- Image recognition
-- Live video augmentation (e.g. putting hats on people’s heads)
-- VR and augmented reality (very low latency)
-- CAD applications
-@ulend
----
-@transition[none]
-## Use Cases (4 of 4)
-
-@ul
-- Scientific visualization and simulation
-- Remote desktop
-- VPN
-- Encryption
-- Local web server
-- Common NPAPI users, within the web's security model and APIs
-- Fat client for enterprise applications (e.g. databases)
-@ulend
+## [@css[wasm](WASM) Explorer @color[red](@fa[external-link-square])](https://mbebenita.github.io/WasmExplorer/)
+<br/>
+## [@css[wasm](WASM) Fiddle @color[red](@fa[external-link-square])](https://wasdk.github.io/WasmFiddle/?haxse)
 
 ---
 
-# How
+# @css[wasm](Why?!)
+
+---?image=assets/use-cases.png&size=contain
+---
+
+### @color[#fbba29](HANSEL)@color[#c97229](MINUTES) Podcast
+<img class="image-glow" src="assets/scott.png" height="300" />
+@css[flash](@color[whitesmoke](&nbsp; @fa[ellipsis-h] &nbsp; @fa[microphone] &nbsp; @fa[ellipsis-h] &nbsp;))
+<img class="image-glow" src="assets/steve.png" height="300" />
+##### @css[scott](Scott Hanselman) @css[steve](Steve Sanderson)
+
+---
+
+> Web development has been constrained because everything has to be done in @css[js](JavaScript).<br/><br/>Web development as a discipline will be able to grow up and mature a little.
+
+---
+
+### @color[orange](My) Interview With @css[steve](Steve Sanderson)
+
+---
+
+> I hope that the future of web development includes giving developers a wider choice of languages and platforms.<br/><br/>There's nothing wrong with @css[js](JavaScript), but our industry would be healthier if multiple paradigms and specializations were better catered for.
+
+---
+
+## As of @color[grey](July 27<sup>th</sup>)
+#### https://github.com/aspnet/Blazor
+<img class='image-glow' src="assets/blazor-github.png" />
+
+---
+
+# @css[wasm](How?!)
+
+---
+
+## @color[grey](Mono Runtime)
+
+<img class="image-glow" src="assets/mono-gorilla.svg" style="min-height: 300px; min-width: 300px; height: 250px; width: 250px;" />
+
+---
+
+### The @color[grey](Mono Runtime) implements the @css[ecma](ECMA) Common Language Infrastructure
 
 ---
 
@@ -286,16 +297,38 @@ fetch("http://api.icndb.com/jokes/random?limitTo=[nerdy]")
 - @size[2.2em](@color[grey](=) @css[bz](Blazor!))
 @ulend
 
+---?image=assets/cuzCSharp.png&size=contain
+
+@snap[west]
+@size[2.5em](@css[wasm shaking](wasm))
+@snapend
+
+@snap[east]
+@size[2.5em](@css[red bold shaking](spasm!))
+@snapend
+
 ---
 
 ## @color[yellow](@fa[exclamation-triangle]) Disclaimer @color[red](@fa[ban])
 
-> @fa[quote-left] @css[bz](Blazor) is an experiment! It is @css[bold](not) yet a committed product.
+> @fa[quote-left] @css[bz](Blazor) is an experiment! It is @css[red bold](not) yet a committed product.
 
 ---?image=assets/interpreted-mode.png&size=contain
 ---?image=assets/aot-mode.png&size=contain
+---
+
+@css[demo](Demo @fa[check-square])
+
+---
+
+# Resources
+
+### https://blazor.net/
+<br/>
+### https://learn-blazor.com/
 
 
+---?image=assets/that-conference.png&size=contain
 ---
 
 ## Thank you

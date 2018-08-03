@@ -1,0 +1,40 @@
+> @fa[quote-left] @css[js bold](JavaScript) is @css[wasm](Assembly) Language for the Web!
+>
+> @fa[hand-o-right] <cite><a href="https://www.hanselman.com/blog/NETAndWebAssemblyIsThisTheFutureOfTheFrontend.aspx" target="_blank">Scott Hanselman (2011)</a></cite>
+
+---
+
+---?image=assets/magic.png&size=auto 90%
+
+
+
+---
+
+## Mono Runtime
+
+<img class="headshot" src="assets/mono-gorilla.svg" style="min-height: 300px; min-width: 300px; height: 250px; width: 250px;" />
+
+---
+
+### The @color[grey](Mono Runtime) implements the @css[ecma](ECMA) Common Language Infrastructure
+
+---
+
+
+---?image=assets/logo-winner.png&size=contain
+---?image=assets/ast.png&size=auto 90%
+---?image=assets/cpu-pic.png&size=auto 90%
+---?image=assets/wasm-logo.png&size=auto 90%
+
+---
+
+## Angry Bots
+
+https://files.unity3d.com/jonas/AngryBots/
+
+---
+
+## Tanks
+
+https://webassembly.org/demo/Tanks/
+

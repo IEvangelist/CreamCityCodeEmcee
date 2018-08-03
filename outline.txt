@@ -1,0 +1,47 @@
+OUTLINE
+=======
+
+-- My Slide -- 
+
+
+WAT?
+- Intro
+- Hanselman 2011, "JavaScript is Assembly Language for the Web"
+- WebAssembly.org
+- It's Official
+ - Standardized, Open, Supported
+- Definitions
+- Analogies
+- Imagery
+ - dotnet anywhere roots...
+ - Mono Runtime, cross-platform
+
+WHY?
+- Use-Cases
+- Comparisons
+ - HTTP GET
+  - JavaScript vs C (as an example)
+- Drawn Conclusions
+- Performance
+ - "Near Native" Performance
+- Code Sharing
+ - C#, Yes, I know that you
+
+
+HOW?
+- C, C++, Rust, C#, Go
+- Tooling?
+- JavaScript Interop
+ - Easily interact with your existing JavaScript code, your favorite libraries, and any browser API through JavaScript interop.
+- The WebAssembly object in a browser
+- Frameworks
+  - Blazor
+   - Blazor runs on WebAssembly, giving you native performance in the browser and a trusted security sandbox.
+   - Blazor runs in all browsers on the real .NET runtime with full support for .NET Standard. Blazor requires no plugins and no code transpilation, only open web standards. 
+
+WHEN?
+- Now, it's standard.
+
+
+WHO?
+- Any developer... not just web developer
