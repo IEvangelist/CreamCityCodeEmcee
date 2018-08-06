@@ -322,6 +322,8 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 @css[demo](Demo @fa[check-square])
 
+## <a href="http://bit.ly/BlazingChuck" target="_blank">bit.ly/BlazingChuck</a>
+
 ---
 
 # Resources

@@ -448,6 +448,12 @@ div.slide-background.present[style*='cuzCSharp.png']  {
   animation-iteration-count: infinite;
 }
 
+div.slide-background.present[style*=sandbox][data-background-hash*=sandbox] {
+  background-color: white;
+  background-repeat: no-repeat;
+  transform: scale(1.25) !important;
+}
+
 div.slide-background.present[style*=cpu][data-background-hash*=cpu] {
   background-color: white;
   background-repeat: no-repeat;
