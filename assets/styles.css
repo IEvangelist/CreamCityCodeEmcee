@@ -13,16 +13,18 @@
 
 .js {
   color: #f7df1e;
-  text-shadow: 0 0 40px black;
+  text-shadow: 0 0 10px black;
 }
 
-.w, .wasm {
+.w,
+.wasm {
   color: #654ff0;
   font-weight: 900 !important;
-  text-shadow: 0 0 40px black;
+  text-shadow: 0 0 10px black;
 }
 
-.bz, .blazor {
+.bz,
+.blazor {
   color: #cb2b5e;
   font-weight: 900 !important;
   text-shadow: 0 0 40px black;
@@ -32,7 +34,8 @@
   color: #0084b4;
 }
 
-.tt, .target {
+.tt,
+.target {
   color: red;
   text-shadow: 0 0 100px black;
 }
@@ -83,15 +86,32 @@
   text-shadow: 0 0 75px black;
 }
 
+.sharp-glow {
+  text-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+.faint-glow {
+  text-shadow: 0 0 75px rgba(255,255,255,0.3);
+}
+
 .blue-glow {
   text-shadow: 0 0 25px #96cbfe;
+}
+
+h4.one-half {
+  font-size: 1.5em;
 }
 
 .shadow {
   text-shadow: 0 0 15px black;
 }
 
-.b, .bold {
+.big {
+  font-size: 1.5em !important;
+}
+
+.b,
+.bold {
   font-weight: 900 !important;
 }
 
@@ -271,6 +291,10 @@ div.slide-background.present:not([style*='binary-strings-black.jpg']) {
   color: red;
 }
 
+.green {
+  color: green;
+}
+
 .gp-tip { font-size : 1.5em; }
 
 .gp-contact { font-size : 1.4em; }
@@ -410,6 +434,8 @@ div.slide-background.present[style*=that-conference][data-background-hash*=that-
 
 div.slide-background.present[style*='wasm-js.png'],
 div.slide-background.present[style*='ast.png'],
+div.slide-background.present[style*='sandbox.png'],
+div.slide-background.present[style*='blazor.png'],
 div.slide-background.present[style*='cuzCSharp.png'] {
   background-color: white;
   background-repeat: no-repeat;

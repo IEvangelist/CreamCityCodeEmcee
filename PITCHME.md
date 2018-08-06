@@ -41,24 +41,15 @@
 >
 > @fa[hand-o-right] <cite>https://webassembly.org/</cite>
 
----?image=assets/stack-based.gif&size=auto 90%
+---
 
 @transition[none]
-@snap[south]
-
-<h2>@css[red bold shadow](...not) @css[that](THAT) stack!</h2>
-
+@snap[west]
+@size[3em](@css[red bold sharp-glow](Push @fa[hand-o-down]))
 @snapend
 
----?image=assets/push-pop.webp&size=auto 90%
-
-@transition[none]
-@snap[north-west]
-@size[3em](@css[red bold shadow](Push @fa[hand-o-down]))
-@snapend
-
-@snap[north-east]
-@size[3em](@css[red bold shadow](Pop @fa[arrow-up]))
+@snap[east]
+@size[3em](@css[green bold sharp-glow](Pop @fa[arrow-up]))
 @snapend
 
 ---
@@ -154,7 +145,7 @@
 @transition[none]
 @snap[north]
 
-<h4>@color[black](Small Instruction Set, @css[red bold](NOT) directly on CPU)</h4>
+<h4 class="one-half">@color[black](@css[red bold](NOT) directly on CPU)</h4>
 
 @snapend
 
@@ -165,9 +156,16 @@ Web Assembly actually is a specification for a byte code format. It's a format f
 
 > @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) a third-party plugin. Plugins expose severe security risks!
 
----?image=assets/sandbox.webp&size=auto 90%
+---?image=assets/sandbox.png&size=auto 90%
 
-### @css[shadow](Same @color[magenta]("security sandbox")<br/>as @css[js](JavaScript))
+@transition[none]
+
+@snap[north]
+
+<h4 class="one-half">@color[black](Same @color[magenta]("security sandbox")<br/>as @css[js](JavaScript))
+</h4>
+
+@snapend
 
 ---
 
@@ -257,6 +255,8 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 <img class="image-glow" src="assets/steve.png" height="300" />
 ##### @css[scott](Scott Hanselman) @css[steve](Steve Sanderson)
 
+### <a href="https://hanselminutes.com/642/blazor-brings-net-to-web-assembly-with-steve-sanderson" target="_blank">@fa[external-link]</a>
+
 ---
 
 > Web development has been constrained because everything has to be done in @css[js](JavaScript).<br/><br/>Web development as a discipline will be able to grow up and mature a little.
@@ -293,20 +293,21 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 - @size[2.2em](@color[grey](=) @css[bz](Blazor!))
 @ulend
 
+---?image=assets/blazor.png&size=contain
 ---
 
-## As of @color[grey](July 27<sup>th</sup>)
+## As of @color[grey](August 8<sup>th</sup>)
 #### https://github.com/aspnet/Blazor
 <img class='image-glow' src="assets/blazor-github.png" />
 
 ---?image=assets/cuzCSharp.png&size=contain
 
 @snap[west]
-@size[2.5em](@css[wasm shaking](wasm))
+@size[2.5em](@css[wasm](wasm))
 @snapend
 
 @snap[east]
-@size[2.5em](@css[red bold shaking](spasm!))
+@size[2.5em](@css[red bold](spasm!))
 @snapend
 
 ---
