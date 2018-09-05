@@ -1,13 +1,19 @@
 ---
+@size[3em](@css[wasm](WebAssembly))
+## The New Endgame?
 
-@size[2.7em](@css[wasm](WebAssembly))
-### The New Endgame?
-<img src="assets/me.jpg" height="250" />
-<br />
-[@davidpine7 @css[twitter](@fa[twitter])](https://twitter.com/davidpine7) | [davidpine.net @color[red](@fa[globe])](http://davidpine.net/)
+---
 
----?image=assets/that-conference-branding.png&size=contain
----?image=assets/that-conference-sponsors.png&size=contain
+<img class="me excited" src="assets/me-2.png" height="600" />
+
+@snap[west]
+[@css[twitter](@fa[twitter]) @davidpine7](https://twitter.com/davidpine7)
+@snapend
+
+@snap[east]
+[davidpine.net @color[red](@fa[globe])](http://davidpine.net/)
+@snapend
+
 ---
 
 # I @color[red](@fa[heart]) The
@@ -45,11 +51,11 @@
 
 @transition[none]
 @snap[west]
-@size[3em](@css[red bold sharp-glow](Push @fa[hand-o-down]))
+@size[3em](@css[red bold bouncing](Push @fa[hand-o-down]))
 @snapend
 
 @snap[east]
-@size[3em](@css[green bold sharp-glow](Pop @fa[arrow-up]))
+@size[3em](@css[green bold popping](Pop @fa[arrow-up]))
 @snapend
 
 ---
@@ -259,7 +265,11 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 ---
 
-> Web development has been constrained because everything has to be done in @css[js](JavaScript).<br/><br/>Web development as a discipline will be able to grow up and mature a little.
+> @fa[quote-left] @color[cyan](Web development) has been __constrained__ because everything has to be done in @css[js](JavaScript).
+
+---
+
+> @fa[quote-left] @color[cyan](Web development) as a discipline will be able to __grow up and mature__ a little.
 
 ---
 
@@ -267,7 +277,11 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 ---
 
-> I hope that the future of web development includes giving developers a wider choice of languages and platforms.<br/><br/>There's nothing wrong with @css[js](JavaScript), but our industry would be healthier if multiple paradigms and specializations were better catered for.
+> @fa[quote-left] I hope that the future of @color[cyan](web development) includes giving developers a wider choice of languages and platforms.
+
+---
+
+> @fa[quote-left] There's nothing wrong with @css[js](JavaScript), but our industry would be healthier if multiple paradigms and specializations were better catered for.
 
 ---
 
@@ -283,6 +297,7 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 ### The @color[grey](Mono Runtime) implements the @css[ecma](ECMA) Common Language Infrastructure
 
+---?image=assets/blazor.png&size=contain
 ---
 
 # @css[bz](Blazor)
@@ -293,10 +308,15 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 - @size[2.2em](@color[grey](=) @css[bz](Blazor!))
 @ulend
 
----?image=assets/blazor.png&size=contain
 ---
 
-## As of @color[grey](August 8<sup>th</sup>)
+## @color[yellow](@fa[exclamation-triangle]) Disclaimer @color[red](@fa[ban])
+
+> @fa[quote-left] @css[bz](Blazor) is an experiment! It is @css[red bold](not) yet a committed product.
+
+---
+
+## As of @color[grey](Sept. 4<sup>th</sup>)
 #### https://github.com/aspnet/Blazor
 <img class='image-glow' src="assets/blazor-github.png" />
 
@@ -310,12 +330,6 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 @size[2.5em](@css[red bold](spasm!))
 @snapend
 
----
-
-## @color[yellow](@fa[exclamation-triangle]) Disclaimer @color[red](@fa[ban])
-
-> @fa[quote-left] @css[bz](Blazor) is an experiment! It is @css[red bold](not) yet a committed product.
-
 ---?image=assets/interpreted-mode.png&size=contain
 ---?image=assets/aot-mode.png&size=contain
 ---
@@ -328,15 +342,19 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 # Resources
 
+### http://bit.ly/BlazingChuck
 ### https://blazor.net/
-<br/>
 ### https://learn-blazor.com/
 
-
----?image=assets/that-conference.png&size=contain
 ---
 
-## Thank you
-<img src="assets/me.jpg" height="300" />
+# Thank you
+<img class="me" src="assets/me-2.png" height="450" />
 <br/>
-[@davidpine7 @css[twitter](@fa[twitter])](https://twitter.com/davidpine7) | [davidpine.net @color[red](@fa[globe])](http://davidpine.net/)
+@snap[west]
+[@css[twitter](@fa[twitter]) @davidpine7](https://twitter.com/davidpine7)
+@snapend
+
+@snap[east]
+[davidpine.net @color[red](@fa[globe])](http://davidpine.net/)
+@snapend

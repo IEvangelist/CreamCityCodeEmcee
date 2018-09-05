@@ -10,4 +10,4 @@ remote-control-nextkey: 40
 theme-override : assets/styles.css
 published: false
 code-line-numbers : true
-footnote : "WebAssembly: The New Endgame? | davidpine.net | @davidpine7"
+footnote : "WebAssembly: The New Endgame?   •   davidpine.net   •   @davidpine7"
