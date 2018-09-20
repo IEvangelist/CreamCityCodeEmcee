@@ -168,7 +168,7 @@ Web Assembly actually is a specification for a byte code format. It's a format f
 
 @snap[north]
 
-<h4 class="one-half">@color[black](Same @color[magenta]("security sandbox")<br/>as @css[js](JavaScript))
+<h4 class="one-half">@color[black](Same @color[magenta]("security sandbox")<br/>as @css[javascript](JavaScript))
 </h4>
 
 @snapend
@@ -179,7 +179,7 @@ Web Assembly actually is a specification for a byte code format. It's a format f
 
 ---
 
-> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) a @css[js](JavaScript) replacement!
+> @fa[quote-left] @css[wasm](WebAssembly) is @css[red bold shadow](not) a @css[javascript](JavaScript) replacement!
 
 ---?image=assets/wasm-js.png&size=contain
 ---
@@ -196,7 +196,7 @@ Web Assembly actually is a specification for a byte code format. It's a format f
 
 ---
 
-# @css[js](JavaScript)
+# @css[javascript](JavaScript)
 ### @color[magenta](HTTP GET Request)
 
 ---
@@ -265,7 +265,7 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 ---
 
-> @fa[quote-left] @color[cyan](Web development) has been __constrained__ because everything has to be done in @css[js](JavaScript).
+> @fa[quote-left] @color[cyan](Web development) has been __constrained__ because everything has to be done in @css[javascript](JavaScript).
 
 ---
 
@@ -281,7 +281,7 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 ---
 
-> @fa[quote-left] There's nothing wrong with @css[js](JavaScript), but our industry would be healthier if multiple paradigms and specializations were better catered for.
+> @fa[quote-left] There's nothing wrong with @css[javascript](JavaScript), but our industry would be healthier if multiple paradigms and specializations were better catered for.
 
 ---
 
@@ -316,9 +316,10 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 
 ---
 
-## As of @color[grey](Sept. 4<sup>th</sup>)
+## As of @color[grey](Sept. 19<sup>th</sup>)
 #### https://github.com/aspnet/Blazor
 <img class='image-glow' src="assets/blazor-github.png" />
+#### First commit back on @color[cyan](Dec. 5<sup>th</sup> 2017)
 
 ---?image=assets/cuzCSharp.png&size=contain
 
@@ -337,7 +338,8 @@ IEvangelist.Emscripten project. Locally compiling C++ targeting .wasm. Outputs .
 @css[demo](Demo @fa[check-square])
 
 ## <a href="http://bit.ly/BlazingChuck" target="_blank">bit.ly/BlazingChuck</a>
-
+<br/>
+##### [ @color[lightyellow](Disclaimer: Use Desktop Browser) ]
 ---
 
 # Resources
