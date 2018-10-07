@@ -1,5 +1,5 @@
-theme: night
-background : assets/binary-strings-black.jpg
+theme: black
+background : assets/ccc-mark.png
 background-opacity : 15
 transition : convex
 logo : assets/logo.png
@@ -8,5 +8,4 @@ remote-control-prevkey: 38
 remote-control-nextkey: 40
 theme-override : assets/styles.css
 published: false
-code-line-numbers : true
-footnote : "WebAssembly: The New Endgame?   •   davidpine.net   •   @davidpine7"
+footnote : "www.creamcitycode.com   •   @creamcitycode   •   #creamcitycode"
