@@ -1,7 +1,7 @@
 theme: black
 background : assets/ccc-mark.png
-background-opacity : 15
-transition : convex
+background-opacity : 25
+transition : none
 logo : assets/logo.png
 remote-control: true
 remote-control-prevkey: 38

@@ -1,3 +1,32 @@
+@import url("/assets/norwester.otf") format("opentype");
+
+h1, h2, h3, h4 {
+  font-family: 'Norwester', sans-serif !important;
+}
+
+.ccc-cream {
+  color: #ECD290;
+}
+
+.ccc-orange {
+  color: #F15322;
+}
+
+.ccc-blue {
+  color: #688B8B;
+}
+
 .shadow {
   text-shadow: 0 0 15px black;
+}
+
+.twitter {
+  color: #1DA1F2;
+  text-shadow: 0 0 15px black;
+}
+
+.reveal section img.orange-border {
+  border: solid 6px #F15322;
+  border-radius: 50%;
+  box-shadow: 0 0 40px black;
 }
