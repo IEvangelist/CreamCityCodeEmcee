@@ -1,7 +1,5 @@
-@import url("/assets/norwester.otf") format("opentype");
-
 h1, h2, h3, h4 {
-  font-family: 'Norwester', sans-serif !important;
+  font-family: sans-serif !important;
 }
 
 .ccc-cream {
@@ -29,4 +27,13 @@ h1, h2, h3, h4 {
   border: solid 6px #F15322;
   border-radius: 50%;
   box-shadow: 0 0 40px black;
+}
+
+.reveal .lowercase {
+  text-transform: none;
+}
+
+.reveal ul>li {
+  color: #F15322;
+  font-weight: bold;
 }
