@@ -20,9 +20,20 @@ h1, h2, h3, h4 {
   text-shadow: 0 0 15px black;
 }
 
+.sharp-shadow {
+  text-shadow: 0 0 5px black;
+}
+
 .twitter {
   color: #1DA1F2;
   text-shadow: 0 0 15px black;
+}
+
+#fallx-logo {
+  border: none !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  background: none;
 }
 
 .reveal section img.orange-border {
