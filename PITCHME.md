@@ -31,7 +31,7 @@
 ---
 
 # @css[shadow](@css[ccc-cream](Fall X App))
-### @css[shadow](@css[lowercase](@css[ccc-orange](bit.ly/fallx-app)))
+## @css[shadow](@css[lowercase](@css[ccc-orange](bit.ly/fallx-app)))
 # @size[2em](@css[ccc-blue](@fa[mobile]))
 
 ---
