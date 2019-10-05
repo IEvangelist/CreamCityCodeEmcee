@@ -50,11 +50,11 @@
 
 ---
 
-# @css[shadow](@css[ccc-cream](Nickolas Means))
+# @css[shadow](@css[ccc-cream](Kim Crayton))
 
-<img src="assets/nickolas_means.jpg" class="orange-border" height="300px" />
+<img src="assets/kim_crayton.png" class="orange-border" height="300px" />
 
-@css[shadow](@size[1.8em](@css[twitter](@fa[twitter] @nmeans)))
+@css[shadow](@size[1.8em](@css[twitter](@fa[twitter] @KimCrayton1)))
 
 Note:
 
